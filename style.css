@@ -5,29 +5,51 @@
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif; 
-    /* font-family: Arial, Helvetica, sans-serif; */
-}
+    }
+
+/* navigation bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+
+  /*Section */
 section{
     height: 600px;
     padding-bottom: 50px;
 } 
 
+/* top-banner Section */
 .top-banner{
     display: flex;
     text-align: left;
     height: 800px;
     padding-bottom: 50px;
 }
-h1{
-    font-size: 70px;
-    font-weight:bolder;
-    font-family: Arial, Helvetica, sans-serif;
-    color:dimgray ;
-    margin-bottom: 20px;
-}
-h1 span{
-    color: orange;
-}
+
 
 .top-left{
     width:40%;
@@ -42,13 +64,18 @@ h1 span{
     margin-left: 5%;
     padding-left: 2%;
 }
-
-.half-width{
-    width:40%;
-    float: left;
-    margin-left: 5%;
-    padding-left: 2%;
+h1{
+    font-size: 70px;
+    font-weight:bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color:dimgray ;
+    margin-bottom: 20px;
 }
+h1 span{
+    color: orange;
+}
+
+/* information-area Section */
 .information-area{
     background-image: url("images/7.png");
     background-size: cover;
@@ -63,6 +90,8 @@ h2{
     font-family: Arial, Helvetica, sans-serif;
     color:dimgray ;
 }
+
+/* recipies Section */
 .third-width{
     width:20%;
     float: left;
@@ -81,6 +110,16 @@ h2{
     text-align: center;
   
 }
+.third-width{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 10px 10px 40px gray;
+    height: 80%;
+}
+
+/* anchor-button */
+
 .anchor-button{
     display: inline-block;
     text-decoration: none;
@@ -103,14 +142,7 @@ p{
     color: orange;
 }
 
-.third-width{
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    box-shadow: 10px 10px 40px gray;
-    height: 80%;
-}
-
+/* footer Section */
 footer{
     background-color: black;
 }
