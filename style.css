@@ -1,18 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     margin: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif; 
+    /* font-family: Arial, Helvetica, sans-serif; */
 }
 section{
-    height: 500px;
+    height: 600px;
     padding-bottom: 50px;
-}
-.subscriber{
-    height: 200px;
-    padding-bottom: 50px;
-}
+} 
+
 .top-banner{
-    
+    display: flex;
     text-align: left;
+    height: 800px;
+    padding-bottom: 50px;
+}
+h1{
+    font-size: 70px;
+    font-weight:bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color:dimgray ;
+    margin-bottom: 20px;
+}
+h1 span{
+    color: orange;
+}
+
+.top-left{
+    width:40%;
+    margin-left:150px;
+    margin-top: 300px;
+    padding-left: 2%;
+    font-size:large;
+}
+.top-right{
+    width:40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
 }
 
 .half-width{
@@ -20,6 +48,20 @@ section{
     float: left;
     margin-left: 5%;
     padding-left: 2%;
+}
+.information-area{
+    background-image: url("images/7.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+   }
+#logo {
+margin-left: 1000px;
+margin-top: 200px;
+}
+h2{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:dimgray ;
 }
 .third-width{
     width:20%;
@@ -30,71 +72,52 @@ section{
 .third-width img{
     width: 100%;
 }
-h1{
-    font-size: 50px;
-}
-h1 span{
-    color: orange;
-}
-
-.half-width img{
-    width: 50%;
-}
 .recipies
 {
-    margin: auto;
-    width: 50%;
+    height: 200px;
+    margin-top: 100px;
+    margin-left: 33%;
+    width: 30%;
     text-align: center;
   
 }
 .anchor-button{
+    display: inline-block;
     text-decoration: none;
     background: linear-gradient(45deg, lightsalmon, tomato);
-    padding: 10px 40px;
-    border-radius: 5px;
+    margin-top: 20px;
+    padding: 20px 60px;
+    border-radius: 50px;
     color: white;
     font-weight: 700;
 }
 p{
     color: dimgray;
 }
-.dream-area{
-    background-image: url("images/7.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-   }
-#logo {
-float: right;
-}
-h2{
-    font-size: 40px;
+.subscriber{
+    height: 200px;
+    padding-bottom: 50px;
 }
 
 .experience-area h3{
     color: orange;
 }
 
-.experience-area div{
-    box-shadow: 5px 7px 40px gray;
+.third-width{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 10px 10px 40px gray;
     height: 80%;
 }
-#full-stack{
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg, lightsalmon, tomato);
-    border-image-slice: 1;
-}
-#baby-web{
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg, blue, cyan);
-    border-image-slice: 1;
-}
+
 footer{
     background-color: black;
 }
 footer p{
     text-align: center;
 }
-footer h1{
+footer h2{
     color: orange;
     text-align: center;
 }
